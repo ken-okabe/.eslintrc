@@ -1,4 +1,15 @@
 {
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "plugins": [
+        "react"
+    ],
     "rules": {
         "linebreak-style": [
             2,
@@ -16,16 +27,5 @@
 	"no-shadow": 0,
 	"no-path-concat" : 0,
 	"no-alert" : 0
-    },
-    "env": {
-        "es6": true,
-        "node": true,
-        "browser": true
-    },
-    "ecmaFeatures": {
-        "jsx": true
-    },
-    "plugins": [
-        "react"
-    ]
+    }
 }
